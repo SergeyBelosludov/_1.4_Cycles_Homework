@@ -76,7 +76,7 @@ public class Main {
         int todayYear = 2022;
         int beginning = todayYear - 200;
         int end = todayYear + 100;
-        for (todayYear = beginning; todayYear >= beginning && todayYear <= end; todayYear++) {
+        for (todayYear = beginning; todayYear <= end; todayYear++) {
             if (todayYear % 79 == 0) {
                 System.out.println(todayYear);
             }
